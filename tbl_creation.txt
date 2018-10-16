@@ -1,0 +1,83 @@
+
+CREATE TABLE [dbo].[us_states](
+	[stateCode] [nchar](2) NOT NULL,
+	[stateName] [nvarchar](128) NOT NULL
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[PREDICTIONS_NEEDED](
+	[OriginAirportCode] [nvarchar](max) NULL,
+	[Month] [int] NULL,
+	[DayofMonth] [int] NULL,
+	[CRSDepHour] [int] NULL,
+	[DayOfWeek] [int] NULL,
+	[Carrier] [nvarchar](max) NULL,
+	[DestAirportCode] [nvarchar](max) NULL,
+	[WindSpeed] [float] NULL,
+	[SeaLevelPressure] [float] NULL,
+	[HourlyPrecip] [float] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('AL','Alabama');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('AK','Alaska');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('AZ','Arizona');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('AR','Arkansas');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('CA','California');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('CO','Colorado');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('CT','Connecticut');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('DE','Delaware');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('DC','District of Columbia');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('FL','Florida');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('GA','Georgia');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('HI','Hawaii');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('ID','Idaho');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('IL','Illinois');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('IN','Indiana');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('IA','Iowa');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('KS','Kansas');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('KY','Kentucky');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('LA','Louisiana');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('ME','Maine');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MD','Maryland');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MA','Massachusetts');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MI','Michigan');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MN','Minnesota');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MS','Mississippi');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MO','Missouri');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('MT','Montana');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NE','Nebraska');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NV','Nevada');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NH','New Hampshire');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NJ','New Jersey');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NM','New Mexico');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NY','New York');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('NC','North Carolina');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('ND','North Dakota');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('OH','Ohio');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('OK','Oklahoma');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('OR','Oregon');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('PA','Pennsylvania');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('PR','Puerto Rico');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('RI','Rhode Island');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('SC','South Carolina');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('SD','South Dakota');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('TN','Tennessee');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('TX','Texas');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('UT','Utah');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('VT','Vermont');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('VA','Virginia');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('WA','Washington');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('WV','West Virginia');
+
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('WI','Wisconsin');
+INSERT INTO [dbo].[us_states] ([stateCode],[stateName]) VALUES ('WY','Wyoming');
