@@ -5,8 +5,8 @@
 1. Sign in using the same account you used for your Azure subscription
 1. Create a username or accept the generated one
 1. Click on the __Libraries__ link at the top
-1. Once on the dashboard, click on  __+ New Library__ and give your library a name like "Lab02 Library"
-1. Give the library a unique ID like "lab02lib" and click __Create__
+1. Once on the dashboard, click on  __+ New Library__ and give your library a name like "Lab01 Library"
+1. Give the library a unique ID like "lab01lib" and click __Create__
 1. Download the notebook located here: https://aka.ms/aiddtextlab
 1. Once inside your new library, click the __+ New__ button, then click on __From Computer__ to upload the .ipynb file you downloaded
 1. Once the upload completes, you should see the new notebook alongside the readme file - click into it
