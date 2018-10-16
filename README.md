@@ -1,6 +1,6 @@
 # AIDiscoveryDay
 
-# Lab 1:  Text and Speech Analytics
+## Lab 1:  Text and Speech Analytics
 1. Go to https://notebooks.azure.com
 1. Sign in using the same account you used for your Azure subscription
 1. Create a username or accept the generated one
@@ -16,10 +16,10 @@
       * Note - the cells that follow are reliant on the previous cells' run results so it's important each cell gets executed successfully
       
      
-# Lab 2:  Cognitive Services
+## Lab 2:  Cognitive Services
 1. [Click here to begin lab](https://github.com/Azure/LearnAI-Bootcamp/blob/master/lab01.1-computer_vision/0_README.md)
 
 
-# Lab 3: Machine Learning with Databricks
+## Lab 3: Machine Learning with Databricks
 1. Download lab instructions from https://aka.ms/aiddmllab-inst
 1. Download the notebook to import into Azure Databricks from https://aka.ms/aiddmllab
